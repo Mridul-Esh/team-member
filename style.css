@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: popoins;
+}
+
+body {
+   margin: 100px;
+   background-color: beige;
+}
+
+/* Team Member Style start */
+
+.container h3{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+    background-color: tomato;
+    padding: 10px; 
+    color: #fff;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.team-member {
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+    
+    transition-duration: 1s;
+}
+
+.team-member h2 {
+    font-size: 28px;
+    color: #fff;
+    transition-duration: 1s;
+}
+
+.team-member p {
+    font-size: 18px;
+    color: #fff;
+    transition-duration: 1s;
+}
+
+.team-member:hover {
+    background-color: greenyellow;
+}
+
+.team-member:hover h2{
+    color: #000;
+}
+
+.team-member:hover p{
+    color: #000;
+} 
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Team Member Style End */
+
+/* Student list Style start */
+
+.container2 h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+    background-color: tomato;
+    padding: 10px;
+}
+
+.student {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.student-list {
+    text-align: center;
+    background-color: greenyellow;
+    padding: 20px;
+    border-radius: 20px;
+    
+    transition-duration: 1s;
+}
+
+.student-list h2 {
+    font-size: 28px;
+    color: #000;
+    transition-duration: 1s;
+}
+
+.student-list p {
+    font-size: 18px;
+    color: #000;
+    transition-duration: 1s;
+}
+
+.student-list:hover {
+    background-color: red;
+}
+
+.student-list:hover h2{
+    color: #fff;
+}
+
+.student-list:hover p{
+    color: #fff;
+} 
+.student-list img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Student list Style End */
